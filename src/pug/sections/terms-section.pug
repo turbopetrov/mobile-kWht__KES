@@ -1,0 +1,20 @@
+section.terms-section
+  .terms-section__circle
+    .terms-section__content-wrapper
+      h3.terms-section__title
+      .terms-section__card-block
+        include ../mixins/terms-card.pug
+        +terms-card(
+          './img/wallet.svg',
+          "Передавай показания и оплачивай электроэнергию с помощью мобильного приложения «Платосфера»"
+          )
+        +terms-card(
+          './img/lump.svg',
+          'Участвуй в розыгрыше сертификатов на оплату электроэнергии номиналом 4000 рублей'
+          )
+        +terms-card(
+          './img/hand.svg',
+          'Подробные условия акции на сайте'
+          )
+      a.btn.terms-section__btn(href="#")| кузбассэнергосбыт.рф
+    img.terms-section__logo(src="../../img/logo_plato.svg", alt="Платосфера")
