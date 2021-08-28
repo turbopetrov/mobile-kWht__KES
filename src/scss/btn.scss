@@ -1,11 +1,11 @@
-.btn{
-  display: block;  
-  text-transform: uppercase;
-  border: 1px solid $white;
-  border-radius: 94px;
-  width: 20vw;
-  height: 8vh;
+.btn {
+  display: block;
+  width: 300px;
+  height: 70px;
+  line-height: 70px;
   text-align: center;
-  line-height: 8vh;
-  
+  text-transform: uppercase;
+  border: 2px solid $white;
+  border-radius: 94px;
+  transition: 0.3s;
 }

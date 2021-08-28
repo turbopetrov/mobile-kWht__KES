@@ -1,1 +1,16 @@
 $white: white;
+$black: black;
+$light-grey: #ececec;
+$yellow: #f7bc67;
+$violet-grad: linear-gradient(
+  137.22deg,
+  #7d2c89 28.12%,
+  #7d249b 51.67%,
+  #7d08d9 84.53%
+);
+.black {
+  color: $black;
+}
+.white {
+  color: $white;
+}

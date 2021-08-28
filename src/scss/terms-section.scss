@@ -1,0 +1,57 @@
+.terms-section {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background-color: $light-grey;
+  &__circle {
+    position: absolute;
+    top: -67px;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    height: 950px;
+    background: $violet-grad;
+    border-radius: 50%;
+  }
+  &__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 66%;
+  }
+  &__title {
+    margin-top: 80px;
+    text-align: center;
+  }
+  &__card-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    height: 520px;
+    margin-top: 37px;
+  }
+  &__btn {
+    margin-top: 45px;
+    text-transform: lowercase;
+    &:hover {
+      background-color: $yellow;
+      border-color: $yellow;
+    }
+  }
+  &__platosphere {
+    position: absolute;
+    right: -250px;
+    bottom: -20px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__platosphere-title {
+    margin-top: 25px;
+    color: $black;
+  }
+}

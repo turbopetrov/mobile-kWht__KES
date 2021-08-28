@@ -1,0 +1,13 @@
+.terms-card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  &__text-wrap {
+    width: 460px;
+  }
+  &__img-wrap {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
+}
