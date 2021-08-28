@@ -1,0 +1,48 @@
+.download-section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: url("../img/Group.svg");
+  background-size: cover;
+  &__btn-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  &__btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+    margin-top: 82px;
+    margin-right: 200px;
+  }
+  &__final-text{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: $black;
+  }
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 15%;
+  &__phone-wrapper{
+    display:flex;
+    flex-wrap: nowrap;
+    width: 80%;
+    
+  }
+  &__phone-icon{
+    margin-right: 20px;
+  }
+  &__phone-number{
+    color: $black;
+  }
+  &__social-wrapper{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 20%;
+  }
+}

@@ -1,12 +1,37 @@
 section.download-section
-  .download-section__btn-block
+  #download-section.download-section__btn-block
+    .download-section__btn-wrapper
+      include ../mixins/download-btn.pug
+      +download-btn(
+        "https://apps.apple.com/ru/app/%D0%BF%D0%BB%D0%B0%D1%82%D0%BE%D1%81%D1%84%D0%B5%D1%80%D0%B0-%D0%B6%D0%BA%D1%85-%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82/id1413093935",
+        "./img/apple.svg",
+        " App Store",
+        "./img/qr_apple.svg"
+      )
+      +download-btn(
+        "https://play.google.com/store/apps/details?id=ru.nskes.paysphera",
+        "./img/google.svg",
+        " Google Play",
+        "./img/qr_google.svg"
+      )
+      +download-btn(
+        "https://play.google.com/store/apps/details?id=ru.nskes.paysphera",
+        "./img/android.svg",
+        " Android",
+        "./img/qr_android.svg"
+      )
   footer.footer
-    a.footer__phone-wrapper(href="#")
+    a.footer__phone-wrapper(href="tel:+78006003660")
       img.footer__phone-icon(src="../../img/phone_icon.svg", alt="phone")
+      p.footer__phone-number.title_md| 8 800 600 36 60
     .footer__social-wrapper
-      a.footer__ok-wrapper(href="#")
+      a.footer__ok-wrapper(href="https://ok.ru/kuzbassenergosbyt", target="_blank")
         img.footer__ok(src="../../img/icon_ok.svg", alt="ok.ru")
-      a.footer__vk-wrapper(href="#")
+      a.footer__vk-wrapper(href="https://vk.ru/kuzbassenergosbyt", target="_blank")
         img.footer__vk(src="../../img/icon_vk.svg", alt="vk.ru")
-      a.footer__insta-wrapper(href="#")
+      a.footer__insta-wrapper(href="https://www.instagram.com/kuzbassenergosbyt/", target="_blank")
         img.footer__insta(src="../../img/icon_insta.svg", alt="insta.ru")
+  p.download-section__final-text.paragraph_xs.
+    Все расходы с оплатой в связи с получением дохода 
+    победитель несет самостоятельно в соответствии с законодательством 
+    о налогах и сборах

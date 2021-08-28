@@ -1,0 +1,9 @@
+mixin download-btn(url, icon="#", text="Скачать в", qr="#")
+  a.download-btn(href=url, target="_blank")
+    .download-btn__icon-block
+      img(src=icon , alt="Скачать")
+    .download-btn__text-block
+      p.paragraph_md| Скачать в
+      p.paragraph_md= text
+    .download-btn__qr-block
+      img(src=qr, alt="qr-код")

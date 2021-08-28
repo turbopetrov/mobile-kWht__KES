@@ -38,3 +38,7 @@
   @extend %paragraph;
   font-size: 1.5em;
 }
+.paragraph_xs {
+  @extend %paragraph;
+  font-size: 1.25em;
+}
