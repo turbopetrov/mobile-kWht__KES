@@ -53,5 +53,9 @@
   &__platosphere-title {
     margin-top: 25px;
     color: $black;
+    display: none;
+  }
+  &__logo{
+    max-width: 25vw;
   }
 }

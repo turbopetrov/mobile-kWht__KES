@@ -1,0 +1,122 @@
+@media (max-width: 1400px) {
+  .terms-section__logo {
+    display: none;
+  }
+  .footer__social-wrapper {
+    width: 30%;
+  }
+}
+@media (max-width: 1200px) {
+  .terms-section__circle {
+    max-width: 900px;
+    max-height: 900px;
+    left: 10vw;
+  }
+  .terms-card__paragraph {
+    font-size: 1.5em;
+    margin-left: 30px;
+  }
+  .terms-section__btn {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .terms-section__circle {
+    border-radius: 0;
+    max-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    left: 0;
+    top: 0;
+  }
+  .download-section__btn-block {
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .download-section__btn-wrapper {
+    margin-right: 0;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__social-wrapper {
+    width: 30%;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 840px) {
+  .offer-section__inner-wrapper {
+    align-items: center;
+  }
+  .offer-section__img {
+    display: none;
+  }
+  .offer-section__logo {
+    width: 40vw;
+    height: 40vw;
+  }
+  .offer-section__paragraph {
+    text-align: center;
+  }
+  .offer-section__title {
+    text-align: center;
+  }
+  .footer__social-wrapper {
+    width: 50%;
+  }
+  .footer__phone-wrapper {
+    width: 80%;
+  }
+  .download-btn__qr-block {
+    display: none;
+  }
+  .download-section__btn-wrapper{
+    justify-content: space-around;
+  }
+  .download-btn {
+    width: 300px;
+    height: 90px;
+    justify-content: space-around;
+  }
+  .download-btn__icon {
+    width: 85%;
+    height: 85%;
+  }
+}
+@media (max-width: 700px) {
+  .page {
+    font-size: 14px;
+  }
+}
+@media (max-width: 635px) {
+  .terms-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .terms-card__img {
+    margin-bottom: 15px;
+    width: 90%;
+    height: 90%;
+  }
+  .terms-section__btn {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 580px) {
+  .page {
+    font-size: 11px;
+  }
+  .footer__social-wrapper {
+    width: 80%;
+    margin-top: 50px;
+  }
+  .footer__phone-wrapper {
+    width: 100%;
+  }
+  .terms-card__text-wrap{
+    width: 320px;
+  }
+}

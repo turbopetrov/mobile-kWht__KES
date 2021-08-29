@@ -3,6 +3,7 @@
   flex-direction: column;
   min-height: 100vh;
   background: url("../img/Group.svg");
+  
   background-size: cover;
   &__btn-block {
     display: flex;
@@ -30,7 +31,7 @@
   &__phone-wrapper{
     display:flex;
     flex-wrap: nowrap;
-    width: 80%;
+    width: 60%;
     
   }
   &__phone-icon{
@@ -45,4 +46,8 @@
     flex-wrap: nowrap;
     width: 20%;
   }
+}
+.download-section__final-text{
+  text-align: center;
+  padding: 0 40px;
 }
